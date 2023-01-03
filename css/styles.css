@@ -1,0 +1,194 @@
+:root{
+    --color-hover: rgb(51, 63, 236);
+    --color-bkg-hover: rgb(255, 255, 255);
+    --bkg-body: rgb(255, 255, 255);
+    --bkg-seecion-servicios: rgb(47, 48, 58);
+    --bkg-color-btn: rgb(33, 150, 243);
+    --bkg-boton: rgb(236, 236, 236);
+}
+
+body {
+    background-color: var(--bkg-body);
+    font-family: 'Roboto', 'Raleway', sans-serif;
+}
+
+.imagenes-general {
+    width: 200px;
+    height: 200px;
+}
+
+/*Estilos header*/
+
+.color-enlaces{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.enlaces-header {
+    background-color: white;
+    color: var(--color-hover);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.enlaces-header-hover:hover{
+    color: var(--color-hover);
+    background-color: var(--color-bkg-hover);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.enlaces-header-focus:focus{
+    color: var(--color-hover);
+    background-color: var(--color-bkg-hover);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.listas-header{
+    list-style: none;
+}
+
+/*Estilos footer*/
+
+#seccion-footer {
+    background-color: var(--bkg-seecion-servicios);
+    width: 1200px;
+    height: 100px;
+    padding: 20px;
+    padding-left: 100px;
+}
+
+.enlaces-footer-color{
+    color: var(--color-hover);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.enlaces-footer{
+    color: var(--bkg-body);
+    text-decoration: none;
+}
+
+.listas-footer{
+    list-style: none;
+}
+
+.enlaces-footer-hover:hover {
+    color: var(--color-hover);
+    background-color: var(--bkg-seecion-servicios);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.enlaces-footer-focus:focus {
+    color: var(--color-bkg-hover);
+    background-color: var(--bkg-seecion-servicios);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*ESTILOS DE LA PAGINA INDEX.HTML*/
+/*estilos Main*/
+
+#seccion-servicios {
+    background-color: var(--bkg-seecion-servicios);
+    width: 900px;
+    height: 200px;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-left: 350px;
+}
+
+#parrafo-servicios {
+    color: white;
+    font-size: 35px;
+}
+
+.btn-servicios {
+    background-color: var(--bkg-color-btn);
+    color: white;
+    margin-left: 200px;
+    font-weight: bold;
+    height: 30px;
+    width: 200px;
+}
+
+.btn-servicios:hover {
+    color: var(--bkg-color-btn);
+    background-color: var(--color-bkg-hover);
+    font-weight: bold;
+}
+
+.btn-servicios-active:active {
+    color: var(--bkg-color-btn);
+    background-color: var(--color-bkg-hover);
+    font-weight: bold;
+}
+
+.listas-main {
+    list-style: none;
+}
+
+.h3-titulos {
+    font-weight: bold;
+    font-size: small;
+}
+
+.parrafo-descripcion-main {
+    font-size: small;
+}
+
+.h3-nombres {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.parrafo-nombres-main {
+    font-size: medium;
+}
+
+/*ESTILOS DE LA PAGINA PORTAFOLIO.HTML*/
+/*estilos main*/
+
+.colores-botones-main{
+    color: var(--bkg-seecion-servicios);
+    background-color: var(--bkg-boton);
+    margin-bottom: 5px;
+    font-weight: bold;
+    height: 25px;
+    width: 110px;
+    border: 0px;
+}
+
+#boton-todo{
+    color: var(--bkg-body);
+    background-color: var(--color-hover);
+}
+
+.btn-todo:hover{
+    text-decoration: underline;
+    color: var(--bkg-body);
+    background-color: var(--color-hover);
+}
+
+.lista-botones{
+    list-style: none;
+}
+
+.lista-imagenes{
+    list-style: none;
+}
+
+.titulos-portafolio{
+    font-weight: bold;
+    font-size: small;
+    color: black;
+}
+
+.descripcion-parrafo-portafolio{
+    font-size: small;
+    color: gray;
+}
