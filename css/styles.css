@@ -1,10 +1,5 @@
 :root{
-    --color-hover: rgb(51, 63, 236);
-    --color-bkg-hover: rgb(255, 255, 255);
     --bkg-body: rgb(255, 255, 255);
-    --bkg-seecion-servicios: rgb(47, 48, 58);
-    --bkg-color-btn: rgb(33, 150, 243);
-    --bkg-boton: rgb(236, 236, 236);
 }
 
 body {
@@ -27,22 +22,22 @@ body {
 
 .enlaces-header {
     background-color: white;
-    color: var(--color-hover);
+    color: rgb(51, 63, 236);
     text-decoration: none;
     font-weight: bold;
     font-size: 25px;
 }
 
 .enlaces-header-hover:hover{
-    color: var(--color-hover);
-    background-color: var(--color-bkg-hover);
+    color: rgb(51, 63, 236);
+    background-color: rgb(255, 255, 255);
     font-weight: bold;
     text-decoration: underline;
 }
 
 .enlaces-header-focus:focus{
-    color: var(--color-hover);
-    background-color: var(--color-bkg-hover);
+    color: rgb(51, 63, 236);
+    background-color: rgb(255, 255, 255);
     font-weight: bold;
     text-decoration: underline;
 }
@@ -54,7 +49,7 @@ body {
 /*Estilos footer*/
 
 #seccion-footer {
-    background-color: var(--bkg-seecion-servicios);
+    background-color: rgb(47, 48, 58);
     width: 1200px;
     height: 100px;
     padding: 20px;
@@ -62,13 +57,13 @@ body {
 }
 
 .enlaces-footer-color{
-    color: var(--color-hover);
+    color: rgb(51, 63, 236);
     text-decoration: none;
     font-weight: bold;
 }
 
 .enlaces-footer{
-    color: var(--bkg-body);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -77,15 +72,15 @@ body {
 }
 
 .enlaces-footer-hover:hover {
-    color: var(--color-hover);
-    background-color: var(--bkg-seecion-servicios);
+    color: rgb(51, 63, 236);
+    background-color: rgb(47, 48, 58);
     font-weight: bold;
     text-decoration: underline;
 }
 
 .enlaces-footer-focus:focus {
-    color: var(--color-bkg-hover);
-    background-color: var(--bkg-seecion-servicios);
+    color: rgb(255, 255, 255);
+    background-color: rgb(47, 48, 58);
     font-weight: bold;
     text-decoration: underline;
 }
@@ -94,7 +89,7 @@ body {
 /*estilos Main*/
 
 #seccion-servicios {
-    background-color: var(--bkg-seecion-servicios);
+    background-color: rgb(47, 48, 58);
     width: 900px;
     height: 200px;
     margin-top: 15px;
@@ -108,7 +103,7 @@ body {
 }
 
 .btn-servicios {
-    background-color: var(--bkg-color-btn);
+    background-color: rgb(33, 150, 243);
     color: white;
     margin-left: 200px;
     font-weight: bold;
@@ -117,14 +112,14 @@ body {
 }
 
 .btn-servicios:hover {
-    color: var(--bkg-color-btn);
-    background-color: var(--color-bkg-hover);
+    color: rgb(33, 150, 243);
+    background-color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
 .btn-servicios-active:active {
-    color: var(--bkg-color-btn);
-    background-color: var(--color-bkg-hover);
+    color: rgb(33, 150, 243);
+    background-color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
@@ -154,8 +149,8 @@ body {
 /*estilos main*/
 
 .colores-botones-main{
-    color: var(--bkg-seecion-servicios);
-    background-color: var(--bkg-boton);
+    color: rgb(47, 48, 58);
+    background-color: rgb(236, 236, 236);
     margin-bottom: 5px;
     font-weight: bold;
     height: 25px;
@@ -164,14 +159,14 @@ body {
 }
 
 #boton-todo{
-    color: var(--bkg-body);
-    background-color: var(--color-hover);
+    color: rgb(255, 255, 255);
+    background-color: rgb(51, 63, 236);
 }
 
 .btn-todo:hover{
     text-decoration: underline;
-    color: var(--bkg-body);
-    background-color: var(--color-hover);
+    color: rgb(255, 255, 255);
+    background-color: rgb(51, 63, 236);
 }
 
 .lista-botones{
