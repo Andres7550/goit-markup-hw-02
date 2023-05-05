@@ -7,20 +7,20 @@ body {
     font-family: 'Roboto', 'Raleway', sans-serif;
 }
 
-.imagenes-general {
+.general-images {
     width: 200px;
     height: 200px;
 }
 
 /*Estilos header*/
 
-.color-enlaces{
+.links-color{
     background-color: white;
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
-.enlaces-header {
+.links-header {
     background-color: white;
     color: rgb(51, 63, 236);
     text-decoration: none;
@@ -28,27 +28,27 @@ body {
     font-size: 25px;
 }
 
-.enlaces-header-hover:hover{
+.links-header-hover:hover{
     color: rgb(51, 63, 236);
     background-color: rgb(255, 255, 255);
     font-weight: bold;
     text-decoration: underline;
 }
 
-.enlaces-header-focus:focus{
+.links-header-focus:focus{
     color: rgb(51, 63, 236);
     background-color: rgb(255, 255, 255);
     font-weight: bold;
     text-decoration: underline;
 }
 
-.listas-header{
+.header-list{
     list-style: none;
 }
 
 /*Estilos footer*/
 
-#seccion-footer {
+.footer-section {
     background-color: rgb(47, 48, 58);
     width: 1200px;
     height: 100px;
@@ -56,29 +56,29 @@ body {
     padding-left: 100px;
 }
 
-.enlaces-footer-color{
+.footer-color-links{
     color: rgb(51, 63, 236);
     text-decoration: none;
     font-weight: bold;
 }
 
-.enlaces-footer{
+.footer-links{
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
-.listas-footer{
+.footer-list{
     list-style: none;
 }
 
-.enlaces-footer-hover:hover {
+.footer-hover-links:hover {
     color: rgb(51, 63, 236);
     background-color: rgb(47, 48, 58);
     font-weight: bold;
     text-decoration: underline;
 }
 
-.enlaces-footer-focus:focus {
+.footer-focus-links:focus {
     color: rgb(255, 255, 255);
     background-color: rgb(47, 48, 58);
     font-weight: bold;
@@ -88,7 +88,7 @@ body {
 /*ESTILOS DE LA PAGINA INDEX.HTML*/
 /*estilos Main*/
 
-#seccion-servicios {
+.service-seccion {
     background-color: rgb(47, 48, 58);
     width: 900px;
     height: 200px;
@@ -97,12 +97,12 @@ body {
     padding-left: 350px;
 }
 
-#parrafo-servicios {
+.service-paragraph {
     color: white;
     font-size: 35px;
 }
 
-.btn-servicios {
+.btn-services {
     background-color: rgb(33, 150, 243);
     color: white;
     margin-left: 200px;
@@ -111,44 +111,44 @@ body {
     width: 200px;
 }
 
-.btn-servicios:hover {
+.btn-services:hover {
     color: rgb(33, 150, 243);
     background-color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
-.btn-servicios-active:active {
+.btn-services-active:active {
     color: rgb(33, 150, 243);
     background-color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
-.listas-main {
+.main-list {
     list-style: none;
 }
 
-.h3-titulos {
+.h3-title {
     font-weight: bold;
     font-size: small;
 }
 
-.parrafo-descripcion-main {
+.description-main-paragraph {
     font-size: small;
 }
 
-.h3-nombres {
+.h3-names {
     font-weight: bold;
     font-size: medium;
 }
 
-.parrafo-nombres-main {
+.main-names-paragraph {
     font-size: medium;
 }
 
 /*ESTILOS DE LA PAGINA PORTAFOLIO.HTML*/
 /*estilos main*/
 
-.colores-botones-main{
+.btn-main-colors{
     color: rgb(47, 48, 58);
     background-color: rgb(236, 236, 236);
     margin-bottom: 5px;
@@ -158,32 +158,27 @@ body {
     border: 0px;
 }
 
-#boton-todo{
-    color: rgb(255, 255, 255);
-    background-color: rgb(51, 63, 236);
-}
-
-.btn-todo:hover{
+.btn-all:hover{
     text-decoration: underline;
     color: rgb(255, 255, 255);
     background-color: rgb(51, 63, 236);
 }
 
-.lista-botones{
+.button-list{
     list-style: none;
 }
 
-.lista-imagenes{
+.image-list{
     list-style: none;
 }
 
-.titulos-portafolio{
+.briefcase-title{
     font-weight: bold;
     font-size: small;
     color: black;
 }
 
-.descripcion-parrafo-portafolio{
+.description-paragraph-briefcase{
     font-size: small;
     color: gray;
 }
